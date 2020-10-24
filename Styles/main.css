@@ -1,0 +1,248 @@
+/*
+GLOBAL
+*/
+
+section {
+    position: relative;
+    width: 960px;
+    height: 545px;
+    margin: auto;
+    border: 1px solid black;
+    /*text-align: center;*/
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+Variables
+*/
+
+:root {
+
+}
+
+
+/*
+section class="head"
+*/
+
+.head img {
+    position: absolute;
+    left: 0px;
+}
+
+.head h1 {
+    position: absolute;
+    font-size: 64px;
+    top: 0px;
+    left: 30%;
+    color: white;
+}
+
+.head h2 {
+    position: absolute;
+    font-size: 36px;
+    width: 335px;
+    top: 350px;
+    left: 30px;
+    color: white;
+    background-color: #7299fe;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+/*
+section class="about_me"
+*/
+
+.about_me {
+    background-color: #7299FE;
+    height: 370px;
+}
+
+.about_me h2 {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+}
+
+.about_me p {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    line-height: 30px;padding: 20px;
+}
+
+.about_me button {
+    font-size: 22px;
+    background-color: #d16fff;
+    color: white;
+    border-radius: 10px;
+    
+    position: relative;
+    width: 187px;
+    height: 62px;
+    left: 38px;
+}
+
+/*
+section class="mis_skills"
+*/
+
+.mis_skills {
+    background-color: #9122FF;
+    height: 370px;
+}
+
+.mis_skills .skills_a {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 1%;
+}
+
+.mis_skills .skills_b {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 1%;
+}
+
+.mis_skills h2 {
+    color: #26CC4B;
+    font-size: 36px;
+    text-align: center;
+}
+
+.skills_a h3 {
+    font-size: 18px;
+    color: white;
+    display: block;
+    margin-left: 10%;
+}
+
+.skills_a .blanco {
+    background-color: white;
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.skills_a .celeste {
+    background-color: lightblue;
+    width: 150px;
+    height: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.skills_b h3 {
+    font-size: 18px;
+    color: white;
+    display: block; 
+}
+
+.skills_b .blanco {
+    background-color: white;
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.skills_b .celeste {
+    background-color: lightblue;
+    width: 150px;
+    height: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/*
+section class="portafolio"
+*/
+
+.portafolio {
+    background-color: #FFD233;
+    height: 370px;
+}
+
+.portafolio h2 {
+    color: #00AD84;
+    font-size: 36px;
+    text-align: center;
+}
+
+.portafolio div {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+/*
+section class="clientes"
+*/
+
+.clientes {
+    background-color: #3F4E62;
+    height: 370px;
+}
+
+.clientes h2 {
+    color: #ADFF28;
+    font-size: 36px;
+    text-align: center;
+}
+
+.clientes div {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+}
+
+.contacto {
+    background-color: #1687A0;
+    height: 500px;
+    text-align: center;
+}
+
+.contacto h2 {
+    color: #FF1B1B;
+    font-size: 36px;
+    text-align: center;
+}
+
+.contacto input{
+    padding: 20px;
+    width: 30%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+
+.contacto textarea{
+    width: 71%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.button-enviar {
+    text-decoration: none;
+    margin-left: auto;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #233451;
+}

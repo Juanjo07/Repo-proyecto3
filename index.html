@@ -10,12 +10,12 @@
 
 <body>
     <main>
-        <section class="cabeza">
+        <section class="head">
             <figure><img src="./images/image 1.png" alt=""></figure>
             <h1>Pachaqtec</h1>
             <h2>Hola, mi nombre es Juan Jose Zarate</h2>
         </section>
-        <section class="sobre_mi">
+        <section class="about_me">
             <h2>Sobre mi</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum excepturi ut eius odit odio rerum facilis culpa aliquam ratione ad ullam quas quaerat possimus, inventore dolore, ipsum ex consequuntur maiores Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum excepturi ut eius odit odio rerum facilis culpa aliquam ratione ad ullam quas quaerat possimus, inventore dolore, ipsum ex consequuntur maiores.</p>
             <button><a href="#"></a>Ver CV</button>
@@ -59,18 +59,20 @@
         </Section>
         <section class="portafolio">
             <h2>Portafolio</h2>
-            <div class="Portafolio">
+            <div class="Portafolio-a">
                 <img src="./images/image port. 1.png" alt="">
                 <img src="./images/image port. 2.png" alt="">
                 <img src="./images/image port. 3.png" alt="">
                 <img src="./images/image port. 4.png" alt="">
+            </div>
+            <div class="portafolio-b">
                 <img src="./images/image port. 5.png" alt="">
                 <img src="./images/image port. 6.png" alt="">
                 <img src="./images/image port. 7.png" alt="">
                 <img src="./images/image port. 8.png" alt="">
             </div>
         </section>
-        <section>
+        <section class="clientes">
             <h2>Clientes</h2>
             <div class="Clientes">
                 <img src="./images/image clie 1.png" alt="">
@@ -79,22 +81,22 @@
                 <img src="./images/image clie 4.png" alt="">
             </div>
         </section>
-        <section>
+        <section class="contacto">
             <h2>Contacto</h2>
             <form action="contacto.php" method="GET">
-                <input type="name" type="text" placeholder="Nombre">
-                <input type="lastname" type="text" placeholder="Apellido">
-                <br>
-                <br>
-                <input type="email" type="text" placeholder="Correo">
-                <input type="number" type="number" placeholder="Telefono">
-                <br>
-                <br>
-                <textarea name="description" id="" cols="30" rows="10" placeholder="description"></textarea>
-                <br>
-                <br>
-                <button type="submit">ENVIAR</button>
-
+                <div>
+                    <input name="name" type="text" placeholder="Nombre">
+                    <input name="lastname" type="text" placeholder="Apellido">
+                </div>
+                <div>  
+                    <input name="email" type="text" placeholder="Correo">
+                    <input name="tel" type="number" placeholder="Telefono">
+                </div>
+                <div>
+                    <textarea name="description" id="" cols="30" rows="10" placeholder="description"></textarea>
+                    <br>
+                </div>
+                <button class="button-enviar" type="submit">Enviar</button>
             </form>
 
         </section>
